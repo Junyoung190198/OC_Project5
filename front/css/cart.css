@@ -60,17 +60,24 @@ h2 {
 }
 .cart__item__content__settings__quantity {
 	display: flex;
+	padding-bottom: 10px;
 }
 .cart__item__content__settings__quantity p {
 	margin-right: 10px;
 	display: flex;
 }
-.cart__item__content__settings__delete p {
-	display: inline;
+.cart__item__content__settings__delete button {
+	font-size: 16px;
+	border-radius: 40px;
+	border: 0;
+	background-color: var(--secondary-color);
+	color: white;
+	padding: 6px 12px;
+
 }
-.cart__item__content__settings__delete p:hover {
+.cart__item__content__settings__delete button:hover {
 	cursor: pointer;
-	font-weight: 700;
+	box-shadow: rgb(42 18 206 / 90%) 0 0 16px 4px;
 }
 
 /*******/
